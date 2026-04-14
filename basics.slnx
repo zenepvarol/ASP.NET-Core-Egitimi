@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="HelloWebAPi/HelloWebAPi.csproj" />
+  <Project Path="hello_world_api_ui/hello_world_api_ui.csproj" />
+  <Project Path="hello_world_cli/hello_world_cli.csproj" />
+</Solution>

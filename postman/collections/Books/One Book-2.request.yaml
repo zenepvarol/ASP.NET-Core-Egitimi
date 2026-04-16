@@ -1,0 +1,16 @@
+$kind: http-request
+name: One Book
+url: https://localhost:7048/api/books/2
+method: PUT
+body:
+  type: json
+  content: "{\r
+
+    \    \"id\":2,\r
+
+    \    \"title\":\"Mesneviden Hikayeler\",\r
+
+    \    \"price\":250\r
+
+    }\r\n"
+order: 3000

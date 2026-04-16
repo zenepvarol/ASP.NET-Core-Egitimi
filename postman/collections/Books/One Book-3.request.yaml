@@ -1,0 +1,5 @@
+$kind: http-request
+name: One Book
+url: https://localhost:7048/api/books/
+method: DELETE
+order: 2000

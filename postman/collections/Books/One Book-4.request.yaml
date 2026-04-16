@@ -1,0 +1,20 @@
+$kind: http-request
+name: One Book
+url: https://localhost:7048/api/books/4
+method: PATCH
+body:
+  type: json
+  content: "[\r
+
+    \  {\r
+
+    \    \"op\": \"replace\",\r
+
+    \    \"path\": \"/title\",\r
+
+    \    \"value\": \"Mesnevi\"\r
+
+    \  }\r
+
+    ]"
+order: 2373294013549333
